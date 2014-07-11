@@ -66,3 +66,5 @@ module Againtesting
     config.assets.version = '1.0'
   end
 end
+
+config.assests.initialize_on_precomple = false
