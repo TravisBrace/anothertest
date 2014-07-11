@@ -67,4 +67,4 @@ module Againtesting
   end
 end
 
-config.assests.initialize_on_precomple = false
+config.assests.initialize_on_precompile = false
