@@ -6,11 +6,11 @@ gem 'rails', '3.2.16'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3 -v '1.3.9''
 end
 
 group :production, :test do
-	gem 'sqlite3'
+	gem 'pg' 
 end
 
 # Gems used only for assets and not required
@@ -47,7 +47,7 @@ gem 'refinerycms', '~> 2.1.0'
 
 # Optionally, specify additional Refinery CMS Extensions here:
 gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
-#  gem 'refinerycms-blog', '~> 2.1.0'
+#  gem 'refinerycms-bog', '~> 2.1.0'
 #  gem 'refinerycms-inquiries', '~> 2.1.0'
 #  gem 'refinerycms-search', '~> 2.1.0'
 #  gem 'refinerycms-page-images', '~> 2.1.0'
