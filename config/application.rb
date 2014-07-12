@@ -66,7 +66,7 @@ module Againtesting
     config.assets.version = '1.0'
 
     #yuuhhppp
-    config.assests.initialize_on_precompile = true
+    config.assets.initialize_on_precompile = true
 
   end
 end
