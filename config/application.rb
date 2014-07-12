@@ -67,7 +67,7 @@ module Againtesting
   end
 end
 
-config.assests.initialize_on_precompile = false
+config.assests.initialize_on_precompile = true
 
 
 #commitupdatetest
