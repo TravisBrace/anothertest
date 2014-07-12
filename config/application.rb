@@ -64,10 +64,13 @@ module Againtesting
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    #yuuhhppp
+    config.assests.initialize_on_precompile = true
+
   end
 end
 
-config.assests.initialize_on_precompile = true
 
 
-#commitupdatetest
+#commitupdatetest 
