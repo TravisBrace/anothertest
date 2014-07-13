@@ -62,3 +62,7 @@ gem 'fog'
 gem 'pg'
 
 gem 'rails_12factor'
+
+#added for caching
+gem 'sass'
+

@@ -201,7 +201,7 @@ GEM
     routing-filter (0.3.1)
       actionpack
     rubyzip (1.1.6)
-    sass (3.3.9)
+    sass (3.2.13)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -241,6 +241,7 @@ DEPENDENCIES
   rails_12factor
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
+  sass
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
