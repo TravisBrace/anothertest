@@ -3,7 +3,7 @@ Againtesting::Application.configure do
 
   # Code is not reloaded between requests
   config.cache_classes = true
-  config.assets.precompile += ['refinery/refinery.css']
+ 
 
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
@@ -17,7 +17,7 @@ Againtesting::Application.configure do
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
-
+  config.assets.initialize_on_precompile = true
   # Generate digests for assets URLs
   config.assets.digest = true
 
